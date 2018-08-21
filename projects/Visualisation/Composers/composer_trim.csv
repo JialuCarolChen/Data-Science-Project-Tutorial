@@ -1,0 +1,151 @@
+id,label,degree,modularity_class,betweenesscentrality
+55,Nadia Boulanger,93,531,48852.67798
+160,Peter Maxwell Davies,34,531,47413.44007
+170,Jacob Druckman,33,531,40335.23613
+173,Steve Reich,57,531,78052.96165
+183,Richard Wagner,193,558,147875.8244
+198,Milton Babbitt,44,531,42669.32498
+203,Thomas Adès,59,229,24357.34096
+206,André Previn,50,235,63008.65921
+223,Costanzo Festa,18,538,30836.9012
+255,Ignaz Pleyel,24,558,32515.94855
+266,Niccolò Paganini,90,558,131251.3188
+287,Klaas de Vries,17,229,22393.22584
+300,Arcangelo Corelli,41,626,55591.95575
+312,Vincent d'Indy,57,554,31278.81081
+317,Ferruccio Busoni,53,558,35189.99474
+359,Louis Andriessen,51,229,48944.15157
+385,Olivier Messiaen,144,229,176697.4794
+402,Adrian Willaert,40,538,25890.99917
+407,Johannes Ockeghem,47,538,57452.76333
+409,Franco Donatoni,24,263,28183.78749
+438,Darius Milhaud,75,554,88029.05715
+456,Carl Philipp Emanuel Bach,40,626,36645.36258
+473,Antonio Vivaldi,40,626,45706.47581
+481,Ian Munro,41,235,33992.84978
+488,Maurice Ravel,134,558,154104.1251
+555,Zacara da Teramo,9,147,26208.33615
+600,Orlando Gibbons,16,468,26020.67262
+631,Christoph Willibald Gluck,35,558,30826.10328
+643,Henry Purcell,46,468,96131.51649
+664,Percy Grainger,26,558,38214.08396
+690,John Corigliano,69,229,50928.36182
+694,Luca Marenzio,30,538,21714.48892
+703,Edgard Varèse,71,229,60331.17745
+733,Antonio Salieri,37,558,23959.21027
+767,George Frideric Handel,87,558,148524.3671
+782,Heinrich Schütz,34,626,32830.8833
+785,François Couperin,34,626,45581.96286
+787,Jan Pieterszoon Sweelinck,33,626,32445.61938
+805,Antonín Dvořák,50,558,39096.73902
+811,Brian Eno,29,531,23206.15709
+850,Camille Saint-Saëns,63,558,31440.99878
+851,György Ligeti,123,229,127495.914
+853,Edison Denisov,31,316,24138.83843
+876,Bernhard Henrik Crusell,10,558,24128.31882
+931,John Cage,113,531,111504.0265
+941,Hector Berlioz,100,558,81682.30351
+947,Benjamin Britten,79,229,91498.67434
+965,Per Nørgård,41,229,22923.60127
+983,Charles-Valentin Alkan,74,558,30409.06037
+1026,George Gershwin,57,531,43596.74655
+1038,Robert Schumann,136,558,66831.04186
+1113,Gioachino Rossini,77,558,24578.55885
+1141,Luigi Nono,52,229,23225.58032
+1152,Bernard Herrmann,22,531,37832.30992
+1155,Hans Pfitzner,15,558,26385.13601
+1175,Francesco Landini,13,147,21902.9
+1192,Dmitri Shostakovich,98,316,186677.0669
+1227,Arvo Pärt,51,229,25743.65027
+1229,César Franck,100,558,41138.98533
+1262,Kaija Saariaho,60,229,26711.69372
+1270,Alexander Scriabin,61,316,44569.41898
+1291,Ralph Vaughan Williams,47,235,44333.90798
+1319,Franz Schubert,128,558,123032.8938
+1331,Joseph Haydn,101,558,64046.07371
+1347,Felix Mendelssohn,151,558,123388.3889
+1392,Brett Dean,50,229,24859.2688
+1418,Giacomo Carissimi,19,626,23108.23588
+1452,Michael Christian Festing,13,468,32788.92605
+1453,Edvard Grieg,70,558,46822.17441
+1460,Leonard Bernstein,113,531,98548.17412
+1493,Giuseppe Verdi,82,558,29568.82687
+1530,Giovanni Gabrieli,32,538,25563.00743
+1587,Arnold Schoenberg,161,531,251134.1186
+1598,John Zorn,41,531,36473.07928
+1610,Igor Stravinsky,192,531,473208.8485
+1617,William Walton,34,235,31381.90805
+1639,John Williams,23,263,25628.87327
+1653,Johann Jakob Froberger,53,626,132090.1922
+1668,Henry Cowell,55,531,32309.46089
+1696,Nikolai Rimsky-Korsakov,67,316,43762.32783
+1743,Philip Glass,67,531,92900.08259
+1795,Domenico Scarlatti,42,626,60847.78213
+1828,Luciano Berio,72,229,60281.1056
+1858,Frédéric Chopin,125,558,78295.56232
+1875,John Dowland,23,468,40723.31473
+1897,Wolfgang Amadeus Mozart,172,558,103015.2782
+1903,Iannis Xenakis,44,229,32710.36459
+1905,Arthur Benjamin,27,235,42906.30101
+1952,Loyset Compère,28,538,38875.89952
+1958,Joseph Joachim,36,558,22296.31607
+1971,Johann Walter,16,538,30342.61758
+1991,Arthur Honegger,42,554,30696.85422
+2035,Paul Hindemith,69,531,74151.52282
+2062,Pyotr Ilyich Tchaikovsky,81,558,46516.54512
+2065,Sergei Rachmaninoff,57,558,35488.31143
+2101,John Adams,77,229,37615.35127
+2138,Nikolai Myaskovsky,46,316,36416.4839
+2141,Giovanni Pierluigi da Palestrina,89,538,243508.417
+2148,Dieterich Buxtehude,32,626,23685.10644
+2190,Béla Bartók,95,531,63305.79232
+2193,Claudio Monteverdi,64,538,109045.3973
+2216,Aaron Copland,135,531,268589.8124
+2226,Frank Zappa,25,229,22768.50181
+2230,Claude Debussy,134,558,207141.3069
+2232,Heitor Villa-Lobos,25,531,56792.67273
+2256,Arnold de Lantins,12,538,33553.35462
+2272,Guillaume Dufay,40,538,72084.96057
+2286,Witold Lutosławski,94,229,99718.61088
+2318,Anton Webern,66,229,59644.74027
+2348,Gustav Mahler,91,558,80200.78397
+2408,Franz Liszt,175,558,112423.189
+2453,Pierre Boulez,175,229,203984.472
+2471,Josquin des Prez,68,538,299837.2895
+2476,Heinrich Ignaz Franz von Biber,20,626,42311.87182
+2482,Roger Sessions,53,531,35244.07791
+2510,William Byrd,38,468,93782.76333
+2528,Walter Piston,46,531,35687.46744
+2539,Michael Nyman,21,531,64072.62535
+2557,György Kurtág,71,229,23203.6161
+2571,Orlande de Lassus,39,538,60614.1599
+2572,Johann Sebastian Bach,268,626,713563.6775
+2574,Edward Elgar,68,558,71946.77958
+2579,Alessandro Scarlatti,34,626,36221.95789
+2603,Sergei Taneyev,38,316,23190.1115
+2619,Jean-Philippe Rameau,51,626,80137.3788
+2632,Charles Ives,60,531,23237.99193
+2695,Louis Marchand,16,626,25736.38521
+2724,Thomas Tallis,19,468,23322.31993
+2762,Esa-Pekka Salonen,37,229,25430.16439
+2800,Heinrich Isaac,23,538,57253.16584
+2815,Carlo Gesualdo,41,538,101245.1232
+2887,Mikhail Glinka,69,558,32331.86124
+2892,Francesco Geminiani,11,468,36723.48716
+2898,Karlheinz Stockhausen,193,229,318703.2877
+2933,Tōru Takemitsu,73,229,34064.6841
+2936,Bart Berman,35,229,71277.00567
+2961,Giovanni Battista Pergolesi,18,626,26588.46005
+2963,Carl Maria von Weber,87,558,47550.0282
+3034,Sergei Prokofiev,65,316,54408.42503
+3062,Johann Pachelbel,43,626,49844.59334
+3074,Erik Satie,45,554,23236.55145
+3141,Johannes Brahms,122,558,164874.8929
+3176,Anton Bruckner,48,558,22206.2077
+3188,Nicolas Gombert,31,538,26025.3869
+3201,Ludwig van Beethoven,196,558,112337.0291
+3211,Lukas Foss,30,531,25870.35191
+3255,Guillaume de Machaut,11,147,27906.78513
+3275,Girolamo Frescobaldi,44,538,76684.31557
+3386,Pierre de La Rue,29,538,28433.7685
+3406,Elliot Goldenthal,17,263,23644.79555

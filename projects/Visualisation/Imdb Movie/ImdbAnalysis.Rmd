@@ -1,0 +1,393 @@
+---
+title: "Imdb"
+author: "Jialu Chen"
+date: "01/11/2017"
+output: html_document
+---
+### 1. Data Preprocessing 
+#Dataset Creation
+```{r Clear workspaxce}
+#Clear workspace
+rm(list=ls())
+```
+
+```{r Load library}
+#Load library
+library(sqldf)
+library(dplyr)
+```
+
+```{r Read datasets}
+#Read the original datasets right out of the converter 
+edges = read.csv("/Users/carolchen/Desktop/VA_dataset/edges_initial.csv", header=TRUE)
+movies = read.csv("/Users/carolchen/Desktop/VA_dataset/movies_initial.csv", header=TRUE)
+actors = read.csv("/Users/carolchen/Desktop/VA_dataset/actors_initial.csv", header=TRUE)
+```
+
+#Clean the movies that have no genre
+```{r Movies with genre}
+#Drop all movies with no genre
+movies_with_genre = sqldf("SELECT *
+                          FROM movies 
+                          WHERE genre != ''
+                          AND year >=1890
+                          ORDER BY year;")
+
+#Find the edgelist of actors and movies with a genre
+edges_with_genre = sqldf("SELECT E.source, E.target
+                          FROM edges E 
+                               INNER JOIN
+                               movies_with_genre M 
+                               ON (E.source = M.id)")
+```
+
+### 2. [(P-upper, P-lower), (Q-upper, Q-lower)]-Core analysis
+#Calculate the degree of actors
+```{r}
+#Calculate the degree of each actor
+actor_degree = sqldf("SELECT E.target AS Actor, A.name AS Name, COUNT(target) AS Appearances
+                        FROM edges_with_genre E INNER JOIN
+                        actors A ON (E.target = A.id)
+                        GROUP BY E.target, A.name
+                        ORDER BY Appearances DESC")
+```
+
+#Calculate the degree distribution with percentile cut-off of the actor: Q-upper, Q-lower 
+```{r Outlier removal}
+#Q-upper
+qu = quantile(actor_degree$Appearances, 0.90)
+#Q-lower
+ql = quantile(actor_degree$Appearances, 0.80)
+print(qu)
+print(ql)
+```
+
+#The distribution of the actor degree is highly skewed, 80% of the nodes only have a degree of 3 so we clean the nodes that the long tail
+#Cleaning: filter out actors that have less than or equal to 3 movies(so the actor can switch between)
+```{r actorclean}
+actor_degree_cut=actor_degree[actor_degree[, "Appearances"]>3,]
+```
+
+#Calculate degree distribution with the percentile cut-off of the actor agian: Q-upper, Q-lower
+```{r Outlier removal}
+cut_choice=c()
+for (i in seq(from=0, to=1, by=0.01)){
+   q = quantile(actor_degree_cut$Appearances, i)
+   cut_choice <- c(cut_choice, q)
+}
+print(cut_choice)  
+```
+# We look at the degree jump of the percentile cut to choose the upper bound
+# Q-upper is choosed to be 115 (99%)
+# For the lower bound we choose to remove the heavy tail (most actors have degree of 4 and 5) 
+# Q-lower is choosed to be 5 (31%)  
+
+
+#Filter the actors based on (Q-lower, Q-upper)
+```{r actorclean2}
+actor_degree_cut2=actor_degree_cut[actor_degree_cut[, "Appearances"]>5,]
+actor_degree_cut2=actor_degree_cut[actor_degree_cut[, "Appearances"]<115,]
+```
+
+#Get the new edge list from the after filtered actors
+```{r filteredactor}
+#Re-order edgelist with actors that have acted in 5 movies or more
+edges_afterActorFilter = sqldf("SELECT E.target AS Actor, 
+                                E.source AS Movie
+                                FROM edges_with_genre E
+                                INNER JOIN
+                                actor_degree_cut2 A ON (A.Actor = E.target)
+                                GROUP BY target, source
+                                ORDER BY target")
+```
+
+#Calculate the degree of each movies
+```{r md}
+#calculate the degree of movies
+movie_degree <- edges_afterActorFilter %>% 
+                group_by(Movie) %>% 
+                summarise(n = n())
+```
+
+#Calculate degree distribution with the percentile cut-off of the movies: P-upper, P-lower
+```{r Outlier removal}
+cut_choice=c()
+for (i in seq(from=0, to=1, by=0.01)){
+   q = quantile(movie_degree$n, i)
+   cut_choice <- c(cut_choice, q)
+}
+print(cut_choice) 
+```
+
+#We look at the degree jump of the percentile cut to choose the upper bound
+#Q-upper is choosed to be 55 (99%)
+#For the lower bound we choose to remove the heavy tail (most actors have degree of 4 and 5) 
+#Q-lower is choosed to be 5 (45%)  
+```{r moviefilter}
+movie_degree=movie_degree[movie_degree[, "n"]>5,]
+movie_degree=movie_degree[movie_degree[, "n"]<55,]
+```
+
+#Get the new Movie-Actor edge list from the after filtered movies
+```{r edglistfileter}
+edges_afterActorMovieFilter = sqldf("SELECT E.Actor, E.Movie
+                                FROM edges_afterActorFilter E
+                                INNER JOIN
+                                movie_degree M ON (M.Movie = E.Movie)
+                                ")
+```
+
+#Get the new Movie-Actor edge list with the all the movie and actor information
+```{r}
+edge_list_movieinfo<-inner_join(edges_afterActorMovieFilter, movies_with_genre,
+                                by = c("Movie" = "id"))
+edge_list_actorinfo<-inner_join(edges_afterActorMovieFilter, actors,
+                                by = c("Actor" = "id"))
+edge_list_allinfo <-inner_join(edge_list_movieinfo, actors,
+                                by = c("Actor" = "id"))
+```
+
+
+#Making the Genre-Actor-Genre list
+```{r genre-actor-genre}
+# join the table itself by actor id
+gag <- sqldf("SELECT E1.genre AS Genre1, E2.genre AS Genre2, 
+              E1.Actor AS Actor, E1.name AS ActorName, E1.year AS Year1, E2.year AS Year2
+                                FROM edge_list_allinfo E1
+                                INNER JOIN
+                                edge_list_allinfo E2 ON (E1.Actor=E2.Actor)
+                                WHERE E1.Movie<>E2.Movie AND E1.Movie<E2.Movie
+                                ")
+```
+
+#Change the Year to decades
+```{r}
+
+gag<-sqldf('SELECT genre1, genre2, actor, actorname, substr(year1,1, 3) || "0" year1, substr(year2,1, 3) || "0" year2 from gag' )
+
+```
+
+#Calculate Switch Frequency per Genre Pairs
+```{r}
+#group by genre1, genre2
+GenrePair_Fre <- gag %>% 
+                 group_by(Genre1, Genre2, year1, year2) %>% 
+                 summarise(n = n())
+#the frequency that an actor staying in an genre
+GenreStay_Fre <- GenrePair_Fre[GenrePair_Fre[,'Genre1']==GenrePair_Fre[,'Genre2'],]
+GenrePairSwitch_Fre <- GenrePair_Fre[GenrePair_Fre[,'Genre1']!=GenrePair_Fre[,'Genre2'],]
+#join when genre1=genre2, genre2=genre1 to remove the direction of the switching (add them when same genre pairs)
+
+GenrePairSwitch_Fre <- sqldf("SELECT G1.Genre1 AS Genre1, G1.Genre2 AS Genre2, 
+                                G1.n AS G1N, G2.n AS G2N, G1.year1 AS Year1, G1.year2 AS Year2
+            
+                                FROM GenrePairSwitch_Fre G1
+                                INNER JOIN
+                                GenrePairSwitch_Fre G2
+                                ON (G1.Genre1=G2.Genre2 AND G1.Genre2=G2.Genre1 AND G1.year1=G2.year1 AND G1.year2=G2.year2)
+                                WHERE G1.n > G2.n
+                                ")
+GenrePairSwitch_Fre['Frequency']<-GenrePairSwitch_Fre[,'G2N']+GenrePairSwitch_Fre[,'G1N']
+GenrePairSwitch_Fre<-GenrePairSwitch_Fre[,-c(3,4)]
+```
+
+#Calculate Switch Frequency per Genre for each actor 
+```{r}
+#filter out the times an actor stay in one genre
+gag_switch<-gag[gag[,'Genre1']!=gag[,'Genre2'],]
+#to calculate per genre frequency, split the data set into 2
+gag_switch1<-gag_switch[,c(1, 3, 4)]
+gag_switch2<-gag_switch[,c(2, 3, 4)] 
+colnames(gag_switch1)<-c("Genre", "Actor", "ActorName")
+colnames(gag_switch2)<-c("Genre", "Actor", "ActorName")
+#row bind the two splitted data set
+gag_switch3<-rbind(gag_switch1, gag_switch2)
+#Calculate the Frequency 
+
+actor_genre_Fre <- gag_switch3 %>% 
+                    group_by(Actor, ActorName, Genre) %>% 
+                    summarise(n = n())
+
+```
+
+#Output csv files
+```{r output}
+#write.csv(edges_afterActorMovieFilter, '/Users/carolchen/Desktop/VADataset_AfterPQCore/edgelist_afterPQCore.csv')
+#write.csv(gag, '/Users/carolchen/Desktop/VADataset_AfterPQCore/genre-actor-genre.csv')
+#write.csv(actor_genre_Fre, '/Users/carolchen/Desktop/VADataset_AfterPQCore/actor-genre_fre.csv')
+#write.csv(GenrePairSwitch_Fre, '/Users/carolchen/Desktop/VADataset_AfterPQCore/GenrePairSwitch_Fre.csv')
+#write.csv(edge_list_allinfo, "/Users/carolchen/Desktop/VADataset_AfterPQCore/edge_list.csv")
+```
+
+### 3. Co-Actor Network and Actor Importance 
+#Greate the actor-actor network from the after filtered Movie-Actor edge list
+```{r}
+#Create actor-actor list
+actor_actor = sqldf("SELECT E1.Actor AS FirstActor, 
+                            E2.Actor AS SecondActor
+                     FROM edge_list_allinfo E1
+                          CROSS JOIN
+                          edge_list_allinfo E2
+                     WHERE E1.Movie = E2.Movie
+                       AND E1.Actor != E2.Actor
+                  ORDER BY E1.Actor")
+
+#Delete reverse duplicates from actor-actor list
+actor_actor_nrd = sqldf("SELECT FirstActor, SecondActor
+                         FROM actor_actor
+                         WHERE FirstActor > SecondActor")
+
+#Group actor-actor pairings and calculate the weights
+actor_actor_f1 = sqldf("SELECT FirstActor,
+                             SecondActor,
+                             (COUNT(*)) AS Weight
+                      FROM actor_actor_nrd
+                      GROUP BY FirstActor, SecondActor
+                      ORDER BY Weight DESC")
+
+```
+
+#Use the igraph package and create the graph object   
+```{r}
+#Create graph like object
+library(igraph)
+aa_graph = graph_from_data_frame(actor_actor_f1, directed=FALSE, vertices = no_zeroes)
+```
+
+#Calculate the Betweenness Centrality of the nodes 
+```{r Node Betweenness}
+#Node betweenness
+n_b = as.data.frame(betweenness(aa_graph, v=V(aa_graph), directed=FALSE,weights=actor_list[,3], nobigint = TRUE, normalized=FALSE))
+write.csv(n_b,"node_betweenness.csv")
+```
+
+#Calculate the Betweenness Centrality of the edges
+```{r Edge Betweeness}
+#Edge betweenness
+e_b = as.data.frame(edge_betweenness(aa_graph, e = E(aa_graph), directed = FALSE, weights=actor_list[,3]))
+write.csv(e_b,"edge_betweenness.csv")
+```
+
+#Clustering Analysis_Cluster Walktrap: find densely connected subgraphs/communities via random walks
+```{r Cluster Walktrap}
+c_w = cluster_walktrap(aa_graph, weights = E(aa_graph)$weight, steps = 4,
+  merges = TRUE, modularity = TRUE, membership = TRUE)
+```
+
+#Clustering Analysis_Fast Greedy: find dense subgraph/communities via directly optimizing a modularity score.
+```{r Fast greedy}
+c_f_g = cluster_fast_greedy(aa_graph, merges = TRUE, modularity = TRUE,
+  membership = TRUE, weights = E(aa_graph)$weight)
+```
+
+#Calculate the coreness of the nodes
+```{r Coreness}
+kcore = coreness(aa_graph, mode = c("all", "out", "in"))
+```
+
+#Output the analysis result
+```{r Clustering table}
+cluster_walktrap_table = as.numeric(membership(c_w))
+cluster_fast_greedy_table = as.numeric(membership(c_f_g))
+cw_table = cbind(no_zeroes, cluster_walktrap_table)
+cw_table = cbind(cw_table, cluster_fast_greedy_table)
+cw_table = cbind(cw_table, kcore)
+colnames(cw_table) = c("Nodes","Betweenness", "Cluster Walktrap", "Cluster Fast", "Core")
+write.csv(cw_table, "clustering_table.csv")
+```
+
+#Calculate the weight of the nodes
+```{r Weights}
+weights = sqldf("SELECT A2.FirstActor, A2.SecondActor, A1.Weight
+                 FROM actor_actor_f A1 NATURAL JOIN actor_actor_f1 A2")
+```
+
+#Calculate the modularity of the nodes
+```{r Modularity}
+mod = modularity(aa_graph, membership(c_w), weights = weights[,3])
+```
+
+```{r Modularity Matrix}
+mod_matrix = modularity_matrix(aa_graph, membership(c_w), weights = weights[,3])
+```
+
+### 4. Genre Dominance statistics calculation
+```{r}
+edgedata <- read.csv('genre-actor-genre.csv')
+
+byDecade <- sqldf('SELECT genre1, genre2, actor, actorname, substr(year1, 1, 3) || 
+      "0" year1, substr(year2, 1, 3) || "0" year2 from edgedata')
+
+sqldf('select * ')
+
+
+#Start Grant Statistics Table 
+
+#actor
+#most dominant genre -- done
+#number in dom genre -- done
+#number of genres they act in --- done
+#number total movies -- done
+
+setwd('datasets')
+getwd()
+
+edges <- read.csv('edges_initial.csv')
+actors <- read.csv('actors_initial.csv')
+movies <- read.csv('movies_initial.csv')
+
+
+full <- sqldf('SELECT source movie, target actor, genre FROM movies M JOIN edges E ON M.ID = E.SOURCE
+                                    JOIN actors A ON E.TARGET = A.ID')
+
+
+nGenreAndMovies <- sqldf('SELECT ACTOR, COUNT(DISTINCT GENRE) NUMBER_OF_GENRES, COUNT(MOVIE) NUMBER_OF_MOVIES FROM full GROUP BY ACTOR')
+dim(nGenreAndMovies)
+
+
+#checks on ngenre
+nGenreAndMovies[13,]
+sqldf('select * from full where actor = "n1000012"')
+
+genreCount <- sqldf('select actor, genre, count(*) count from full group by actor, genre')
+dim(genreCount)
+head(genreCount, 750)
+
+maxCount <- sqldf('select actor, max(count) count from genreCount group by actor')
+dim(maxCount)
+head(maxCount, 10)
+
+sqldf('select count(distinct actor) from full')
+
+domGenre <- sqldf('select g.actor actor, g.genre dominant_genre, g.count count_dominant_genre from genreCount g
+                          join maxCount m on (g.actor = m.actor and g.count = m.count)')
+
+
+head(domGenre, 5)
+
+final <- sqldf('select * from nGenreAndMovies join domGenre using (actor) ')
+
+sqldf('select actor from final group by actor having count(*) > 1')
+
+sqldf('select * from final where actor in( "n1000006", "n1006353", "n1006347")')
+sqldf('select * from full where actor in ( "n1000006", "n1006353", "n1006347")')
+dim(final)
+
+head(final)
+
+write.csv(final, 'actor_stats_package.csv')
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,972 @@
+Source,Target,Label,Weight
+Bahamas,Albania,Bahamas,2
+Bahamas,Andorra,Bahamas,26
+Bahamas,Argentina,Bahamas,23
+Bahamas,Australia,Bahamas,2
+Bahamas,Austria,Bahamas,4
+Bahamas,Azerbaijan,Bahamas,4
+Bahamas,Bahamas,Bahamas,432
+Bahamas,Barbados,Bahamas,2
+Bahamas,Belgium,Bahamas,8
+Bahamas,Belize,Bahamas,250
+Bahamas,Bermuda,Bahamas,19
+Bahamas,Brazil,Bahamas,33
+Bahamas,Bulgaria,Bahamas,2
+Bahamas,Canada,Bahamas,35
+Bahamas,Cayman Islands,Bahamas,7
+Bahamas,Chile,Bahamas,14
+Bahamas,China,Bahamas,5
+Bahamas,Colombia,Bahamas,22
+Bahamas,Costa Rica,Bahamas,32
+Bahamas,Cyprus,Bahamas,649
+Bahamas,Czech Republic,Bahamas,2
+Bahamas,Denmark,Bahamas,4
+Bahamas,Dominican Republic,Bahamas,8
+Bahamas,Ecuador,Bahamas,49
+Bahamas,Egypt,Bahamas,5
+Bahamas,El Salvador,Bahamas,6
+Bahamas,Estonia,Bahamas,114
+Bahamas,Finland,Bahamas,32
+Bahamas,France,Bahamas,23
+Bahamas,Germany,Bahamas,1
+Bahamas,Ghana,Bahamas,1
+Bahamas,Gibraltar,Bahamas,150
+Bahamas,Greece,Bahamas,7
+Bahamas,Guatemala,Bahamas,39
+Bahamas,Guernsey,Bahamas,1504
+Bahamas,Honduras,Bahamas,1
+Bahamas,Hong Kong,Bahamas,960
+Bahamas,Hungary,Bahamas,4
+Bahamas,Ireland,Bahamas,25
+Bahamas,Isle of Man,Bahamas,883
+Bahamas,Israel,Bahamas,16
+Bahamas,Italy,Bahamas,3
+Bahamas,Jamaica,Bahamas,1
+Bahamas,Jersey,Bahamas,1241
+Bahamas,Jordan,Bahamas,14
+Bahamas,Kenya,Bahamas,1
+Bahamas,Kuwait,Bahamas,2
+Bahamas,Latvia,Bahamas,51
+Bahamas,Lebanon,Bahamas,7
+Bahamas,Liechtenstein,Bahamas,87
+Bahamas,Lithuania,Bahamas,2
+Bahamas,Luxembourg,Bahamas,423
+Bahamas,Malaysia,Bahamas,1
+Bahamas,Malta,Bahamas,11
+Bahamas,Mauritius,Bahamas,136
+Bahamas,Mexico,Bahamas,3
+Bahamas,Monaco,Bahamas,83
+Bahamas,Netherlands,Bahamas,28
+Bahamas,New Zealand,Bahamas,7
+Bahamas,Nigeria,Bahamas,5
+Bahamas,Niue,Bahamas,1
+Bahamas,Norway,Bahamas,1
+Bahamas,Pakistan,Bahamas,1
+Bahamas,Panama,Bahamas,1120
+Bahamas,Paraguay,Bahamas,10
+Bahamas,Peru,Bahamas,2
+Bahamas,Philippines,Bahamas,2
+Bahamas,Poland,Bahamas,58
+Bahamas,Portugal,Bahamas,44
+Bahamas,Qatar,Bahamas,4
+Bahamas,Russian Federation,Bahamas,1335
+Bahamas,Saint Kitts and Nevis,Bahamas,9
+Bahamas,Samoa,Bahamas,121
+Bahamas,Saudi Arabia,Bahamas,4
+Bahamas,Seychelles,Bahamas,67
+Bahamas,Singapore,Bahamas,93
+Bahamas,Slovenia,Bahamas,3
+Bahamas,South Africa,Bahamas,8
+Bahamas,Spain,Bahamas,163
+Bahamas,Sweden,Bahamas,22
+Bahamas,Switzerland,Bahamas,2127
+Bahamas,Syrian Arab Republic,Bahamas,2
+Bahamas,"Taiwan, Province of China",Bahamas,242
+Bahamas,Thailand,Bahamas,25
+Bahamas,Turkey,Bahamas,3
+Bahamas,Turks and Caicos Islands,Bahamas,5
+Bahamas,Ukraine,Bahamas,82
+Bahamas,United Arab Emirates,Bahamas,648
+Bahamas,United Kingdom,Bahamas,1319
+Bahamas,United States,Bahamas,402
+Bahamas,Uruguay,Bahamas,317
+Bahamas,"Venezuela, Bolivarian Republic of",Bahamas,18
+Bahamas,Viet Nam,Bahamas,2
+Bahamas,"Virgin Islands, British",Bahamas,145
+Bahamas,"Virgin Islands, U.S.",Bahamas,2
+Belize,China,Belize,1
+Belize,Colombia,Belize,19
+Belize,Cyprus,Belize,11
+Belize,Ecuador,Belize,5
+Belize,Gibraltar,Belize,2
+Belize,Hong Kong,Belize,6
+Belize,Israel,Belize,10
+Belize,Luxembourg,Belize,8
+Belize,Monaco,Belize,2
+Belize,Panama,Belize,40
+Belize,Russian Federation,Belize,3
+Belize,Seychelles,Belize,1
+Belize,Singapore,Belize,1
+Belize,Switzerland,Belize,4
+Belize,United Arab Emirates,Belize,1
+Belize,United Kingdom,Belize,2
+Belize,United States,Belize,2
+Belize,Uruguay,Belize,4
+Belize,"Venezuela, Bolivarian Republic of",Belize,7
+Belize,"Virgin Islands, British",Belize,1
+Bermuda,Bermuda,Bermuda,6
+British Anguilla,Anguilla,British Anguilla,21
+British Anguilla,Aruba,British Anguilla,4
+British Anguilla,Australia,British Anguilla,1
+British Anguilla,Austria,British Anguilla,1
+British Anguilla,Bahamas,British Anguilla,45
+British Anguilla,Belgium,British Anguilla,1
+British Anguilla,Belize,British Anguilla,19
+British Anguilla,Brazil,British Anguilla,14
+British Anguilla,Canada,British Anguilla,2
+British Anguilla,Chile,British Anguilla,2
+British Anguilla,China,British Anguilla,148
+British Anguilla,Colombia,British Anguilla,59
+British Anguilla,Costa Rica,British Anguilla,11
+British Anguilla,Cyprus,British Anguilla,5
+British Anguilla,Dominican Republic,British Anguilla,24
+British Anguilla,Ecuador,British Anguilla,146
+British Anguilla,El Salvador,British Anguilla,1
+British Anguilla,Estonia,British Anguilla,1
+British Anguilla,France,British Anguilla,10
+British Anguilla,Georgia,British Anguilla,1
+British Anguilla,Germany,British Anguilla,1
+British Anguilla,Ghana,British Anguilla,1
+British Anguilla,Guatemala,British Anguilla,23
+British Anguilla,Guernsey,British Anguilla,27
+British Anguilla,Hong Kong,British Anguilla,1366
+British Anguilla,Ireland,British Anguilla,1
+British Anguilla,Isle of Man,British Anguilla,35
+British Anguilla,Israel,British Anguilla,150
+British Anguilla,Italy,British Anguilla,204
+British Anguilla,Jersey,British Anguilla,2
+British Anguilla,Kenya,British Anguilla,2
+British Anguilla,Liechtenstein,British Anguilla,5
+British Anguilla,Lithuania,British Anguilla,1
+British Anguilla,Luxembourg,British Anguilla,7
+British Anguilla,Malaysia,British Anguilla,1
+British Anguilla,Monaco,British Anguilla,4
+British Anguilla,Netherlands,British Anguilla,4
+British Anguilla,Panama,British Anguilla,278
+British Anguilla,Philippines,British Anguilla,1
+British Anguilla,Romania,British Anguilla,2
+British Anguilla,Russian Federation,British Anguilla,73
+British Anguilla,Samoa,British Anguilla,2
+British Anguilla,Seychelles,British Anguilla,2
+British Anguilla,Singapore,British Anguilla,15
+British Anguilla,Slovenia,British Anguilla,16
+British Anguilla,Spain,British Anguilla,3
+British Anguilla,Switzerland,British Anguilla,96
+British Anguilla,"Taiwan, Province of China",British Anguilla,1
+British Anguilla,Thailand,British Anguilla,3
+British Anguilla,Ukraine,British Anguilla,1
+British Anguilla,United Arab Emirates,British Anguilla,242
+British Anguilla,United Kingdom,British Anguilla,31
+British Anguilla,United States,British Anguilla,32
+British Anguilla,Uruguay,British Anguilla,67
+British Anguilla,"Venezuela, Bolivarian Republic of",British Anguilla,24
+British Anguilla,"Virgin Islands, British",British Anguilla,1
+British Virgin Islands,Andorra,British Virgin Islands,39
+British Virgin Islands,Angola,British Virgin Islands,10
+British Virgin Islands,Anguilla,British Virgin Islands,2
+British Virgin Islands,Antigua and Barbuda,British Virgin Islands,1
+British Virgin Islands,Argentina,British Virgin Islands,83
+British Virgin Islands,Aruba,British Virgin Islands,19
+British Virgin Islands,Australia,British Virgin Islands,64
+British Virgin Islands,Austria,British Virgin Islands,7
+British Virgin Islands,Azerbaijan,British Virgin Islands,4
+British Virgin Islands,Bahamas,British Virgin Islands,1762
+British Virgin Islands,Bahrain,British Virgin Islands,10
+British Virgin Islands,Bangladesh,British Virgin Islands,2
+British Virgin Islands,Barbados,British Virgin Islands,14
+British Virgin Islands,Belarus,British Virgin Islands,14
+British Virgin Islands,Belgium,British Virgin Islands,18
+British Virgin Islands,Belize,British Virgin Islands,166
+British Virgin Islands,Bermuda,British Virgin Islands,102
+British Virgin Islands,"Bolivia, Plurinational State of",British Virgin Islands,2
+British Virgin Islands,Botswana,British Virgin Islands,2
+British Virgin Islands,Brazil,British Virgin Islands,472
+British Virgin Islands,Brunei Darussalam,British Virgin Islands,3
+British Virgin Islands,Bulgaria,British Virgin Islands,20
+British Virgin Islands,Canada,British Virgin Islands,188
+British Virgin Islands,Cayman Islands,British Virgin Islands,869
+British Virgin Islands,Central African Republic,British Virgin Islands,1
+British Virgin Islands,Chad,British Virgin Islands,10
+British Virgin Islands,Chile,British Virgin Islands,31
+British Virgin Islands,China,British Virgin Islands,2161
+British Virgin Islands,Colombia,British Virgin Islands,261
+British Virgin Islands,Cook Islands,British Virgin Islands,4
+British Virgin Islands,Costa Rica,British Virgin Islands,141
+British Virgin Islands,Croatia,British Virgin Islands,2
+British Virgin Islands,Cuba,British Virgin Islands,8
+British Virgin Islands,Curaçao,British Virgin Islands,10
+British Virgin Islands,Cyprus,British Virgin Islands,1868
+British Virgin Islands,Czech Republic,British Virgin Islands,24
+British Virgin Islands,Côte d'Ivoire,British Virgin Islands,10
+British Virgin Islands,Denmark,British Virgin Islands,4
+British Virgin Islands,Dominica,British Virgin Islands,4
+British Virgin Islands,Dominican Republic,British Virgin Islands,130
+British Virgin Islands,Ecuador,British Virgin Islands,252
+British Virgin Islands,Egypt,British Virgin Islands,12
+British Virgin Islands,El Salvador,British Virgin Islands,19
+British Virgin Islands,Estonia,British Virgin Islands,644
+British Virgin Islands,Finland,British Virgin Islands,25
+British Virgin Islands,France,British Virgin Islands,136
+British Virgin Islands,Germany,British Virgin Islands,32
+British Virgin Islands,Ghana,British Virgin Islands,1
+British Virgin Islands,Gibraltar,British Virgin Islands,1583
+British Virgin Islands,Greece,British Virgin Islands,60
+British Virgin Islands,Guam,British Virgin Islands,1
+British Virgin Islands,Guatemala,British Virgin Islands,184
+British Virgin Islands,Guernsey,British Virgin Islands,4715
+British Virgin Islands,Haiti,British Virgin Islands,3
+British Virgin Islands,Honduras,British Virgin Islands,4
+British Virgin Islands,Hong Kong,British Virgin Islands,27379
+British Virgin Islands,Hungary,British Virgin Islands,25
+British Virgin Islands,Iceland,British Virgin Islands,14
+British Virgin Islands,India,British Virgin Islands,12
+British Virgin Islands,Indonesia,British Virgin Islands,51
+British Virgin Islands,Ireland,British Virgin Islands,184
+British Virgin Islands,Isle of Man,British Virgin Islands,3023
+British Virgin Islands,Israel,British Virgin Islands,171
+British Virgin Islands,Italy,British Virgin Islands,31
+British Virgin Islands,Jamaica,British Virgin Islands,3
+British Virgin Islands,Japan,British Virgin Islands,14
+British Virgin Islands,Jersey,British Virgin Islands,10467
+British Virgin Islands,Jordan,British Virgin Islands,1144
+British Virgin Islands,Kazakhstan,British Virgin Islands,4
+British Virgin Islands,Kenya,British Virgin Islands,15
+British Virgin Islands,"Korea, Democratic People's Republic of",British Virgin Islands,2
+British Virgin Islands,"Korea, Republic of",British Virgin Islands,3
+British Virgin Islands,Kuwait,British Virgin Islands,8
+British Virgin Islands,Latvia,British Virgin Islands,1302
+British Virgin Islands,Lebanon,British Virgin Islands,209
+British Virgin Islands,Libya,British Virgin Islands,1
+British Virgin Islands,Liechtenstein,British Virgin Islands,1268
+British Virgin Islands,Lithuania,British Virgin Islands,4
+British Virgin Islands,Luxembourg,British Virgin Islands,3081
+British Virgin Islands,Macao,British Virgin Islands,24
+British Virgin Islands,"Macedonia, the Former Yugoslav Republic of",British Virgin Islands,1
+British Virgin Islands,Malawi,British Virgin Islands,1
+British Virgin Islands,Malaysia,British Virgin Islands,40
+British Virgin Islands,Mali,British Virgin Islands,8
+British Virgin Islands,Malta,British Virgin Islands,462
+British Virgin Islands,Mauritius,British Virgin Islands,918
+British Virgin Islands,Mexico,British Virgin Islands,14
+British Virgin Islands,"Moldova, Republic of",British Virgin Islands,2
+British Virgin Islands,Monaco,British Virgin Islands,1035
+British Virgin Islands,Montenegro,British Virgin Islands,12
+British Virgin Islands,Morocco,British Virgin Islands,21
+British Virgin Islands,Mozambique,British Virgin Islands,1
+British Virgin Islands,Netherlands,British Virgin Islands,76
+British Virgin Islands,New Zealand,British Virgin Islands,19
+British Virgin Islands,Nicaragua,British Virgin Islands,2
+British Virgin Islands,Nigeria,British Virgin Islands,12
+British Virgin Islands,Niue,British Virgin Islands,13
+British Virgin Islands,Norway,British Virgin Islands,5
+British Virgin Islands,Not identified,British Virgin Islands,195
+British Virgin Islands,Oman,British Virgin Islands,2
+British Virgin Islands,Pakistan,British Virgin Islands,1
+British Virgin Islands,Panama,British Virgin Islands,4787
+British Virgin Islands,Paraguay,British Virgin Islands,27
+British Virgin Islands,Peru,British Virgin Islands,10
+British Virgin Islands,Philippines,British Virgin Islands,18
+British Virgin Islands,Poland,British Virgin Islands,28
+British Virgin Islands,Portugal,British Virgin Islands,62
+British Virgin Islands,Qatar,British Virgin Islands,10
+British Virgin Islands,Romania,British Virgin Islands,2
+British Virgin Islands,Russian Federation,British Virgin Islands,2297
+British Virgin Islands,Saint Kitts and Nevis,British Virgin Islands,26
+British Virgin Islands,Saint Lucia,British Virgin Islands,3
+British Virgin Islands,Saint Vincent and the Grenadines,British Virgin Islands,3
+British Virgin Islands,Samoa,British Virgin Islands,250
+British Virgin Islands,Saudi Arabia,British Virgin Islands,74
+British Virgin Islands,Seychelles,British Virgin Islands,161
+British Virgin Islands,Singapore,British Virgin Islands,4027
+British Virgin Islands,Slovenia,British Virgin Islands,1
+British Virgin Islands,South Africa,British Virgin Islands,61
+British Virgin Islands,Spain,British Virgin Islands,186
+British Virgin Islands,Sri Lanka,British Virgin Islands,3
+British Virgin Islands,Sweden,British Virgin Islands,19
+British Virgin Islands,Switzerland,British Virgin Islands,19649
+British Virgin Islands,"Taiwan, Province of China",British Virgin Islands,1818
+British Virgin Islands,"Tanzania, United Republic of",British Virgin Islands,2
+British Virgin Islands,Thailand,British Virgin Islands,637
+British Virgin Islands,Trinidad and Tobago,British Virgin Islands,5
+British Virgin Islands,Tunisia,British Virgin Islands,3
+British Virgin Islands,Turkey,British Virgin Islands,69
+British Virgin Islands,Turks and Caicos Islands,British Virgin Islands,4
+British Virgin Islands,Uganda,British Virgin Islands,1
+British Virgin Islands,Ukraine,British Virgin Islands,150
+British Virgin Islands,United Arab Emirates,British Virgin Islands,3512
+British Virgin Islands,United Kingdom,British Virgin Islands,5430
+British Virgin Islands,United States,British Virgin Islands,1571
+British Virgin Islands,Uruguay,British Virgin Islands,1467
+British Virgin Islands,Uzbekistan,British Virgin Islands,5
+British Virgin Islands,Vanuatu,British Virgin Islands,3
+British Virgin Islands,"Venezuela, Bolivarian Republic of",British Virgin Islands,122
+British Virgin Islands,Viet Nam,British Virgin Islands,15
+British Virgin Islands,"Virgin Islands, British",British Virgin Islands,38791
+British Virgin Islands,"Virgin Islands, U.S.",British Virgin Islands,2
+British Virgin Islands,Zambia,British Virgin Islands,2
+British Virgin Islands,Zimbabwe,British Virgin Islands,5
+Brunei,Brunei Darussalam,Brunei,2
+Cayman,Cayman Islands,Cayman,668
+Cayman,Hong Kong,Cayman,28
+Cayman,Panama,Cayman,1
+Cayman,Singapore,Cayman,8
+Cayman,"Virgin Islands, British",Cayman,1
+China,China,China,1
+Cook Islands,Cayman Islands,Cook Islands,9
+Cook Islands,Cook Islands,Cook Islands,547
+Cook Islands,Fiji,Cook Islands,1
+Cook Islands,Hong Kong,Cook Islands,4
+Cook Islands,Indonesia,Cook Islands,3
+Cook Islands,Malaysia,Cook Islands,1
+Cook Islands,Not identified,Cook Islands,5
+Cook Islands,Singapore,Cook Islands,46
+Cook Islands,Switzerland,Cook Islands,1
+Cook Islands,"Taiwan, Province of China",Cook Islands,1
+Cook Islands,United States,Cook Islands,16
+Costa Rica,Andorra,Costa Rica,3
+Costa Rica,Argentina,Costa Rica,1
+Costa Rica,Bahamas,Costa Rica,9
+Costa Rica,Chile,Costa Rica,1
+Costa Rica,Colombia,Costa Rica,42
+Costa Rica,Ecuador,Costa Rica,8
+Costa Rica,Luxembourg,Costa Rica,1
+Costa Rica,Panama,Costa Rica,5
+Costa Rica,Uruguay,Costa Rica,8
+Cyprus,Bahamas,Cyprus,2
+Cyprus,Colombia,Cyprus,1
+Cyprus,Cyprus,Cyprus,7
+Cyprus,Estonia,Cyprus,1
+Cyprus,Germany,Cyprus,1
+Cyprus,Guernsey,Cyprus,1
+Cyprus,Isle of Man,Cyprus,6
+Cyprus,Israel,Cyprus,4
+Cyprus,Italy,Cyprus,13
+Cyprus,Jersey,Cyprus,1
+Cyprus,Liechtenstein,Cyprus,1
+Cyprus,Luxembourg,Cyprus,6
+Cyprus,Panama,Cyprus,22
+Cyprus,Peru,Cyprus,1
+Cyprus,Portugal,Cyprus,5
+Cyprus,Switzerland,Cyprus,6
+Cyprus,Uruguay,Cyprus,1
+Dubai,United Arab Emirates,Dubai,2
+Hong Kong,Andorra,Hong Kong,9
+Hong Kong,Argentina,Hong Kong,4
+Hong Kong,Bahamas,Hong Kong,6
+Hong Kong,Belarus,Hong Kong,1
+Hong Kong,Belize,Hong Kong,44
+Hong Kong,"Bolivia, Plurinational State of",Hong Kong,2
+Hong Kong,Brazil,Hong Kong,2
+Hong Kong,Cayman Islands,Hong Kong,59
+Hong Kong,China,Hong Kong,3
+Hong Kong,Colombia,Hong Kong,1
+Hong Kong,Cook Islands,Hong Kong,1
+Hong Kong,Costa Rica,Hong Kong,5
+Hong Kong,Cyprus,Hong Kong,4
+Hong Kong,Ecuador,Hong Kong,2
+Hong Kong,France,Hong Kong,2
+Hong Kong,Guernsey,Hong Kong,2
+Hong Kong,Hong Kong,Hong Kong,919
+Hong Kong,Ireland,Hong Kong,1
+Hong Kong,Isle of Man,Hong Kong,7
+Hong Kong,Israel,Hong Kong,1
+Hong Kong,Italy,Hong Kong,1
+Hong Kong,Jersey,Hong Kong,66
+Hong Kong,Latvia,Hong Kong,1
+Hong Kong,Lebanon,Hong Kong,3
+Hong Kong,Liechtenstein,Hong Kong,11
+Hong Kong,Luxembourg,Hong Kong,39
+Hong Kong,Malta,Hong Kong,1
+Hong Kong,Mexico,Hong Kong,1
+Hong Kong,Monaco,Hong Kong,1
+Hong Kong,Not identified,Hong Kong,3
+Hong Kong,Panama,Hong Kong,108
+Hong Kong,Peru,Hong Kong,1
+Hong Kong,Portugal,Hong Kong,1
+Hong Kong,Russian Federation,Hong Kong,3
+Hong Kong,Saint Kitts and Nevis,Hong Kong,14
+Hong Kong,Samoa,Hong Kong,16
+Hong Kong,Singapore,Hong Kong,5
+Hong Kong,Switzerland,Hong Kong,33
+Hong Kong,Thailand,Hong Kong,2
+Hong Kong,United Arab Emirates,Hong Kong,2
+Hong Kong,United Kingdom,Hong Kong,4
+Hong Kong,United States,Hong Kong,3
+Hong Kong,Uruguay,Hong Kong,5
+Hong Kong,"Venezuela, Bolivarian Republic of",Hong Kong,8
+Hong Kong,"Virgin Islands, British",Hong Kong,3
+Ireland,Ireland,Ireland,1
+Isle Of Man,Isle of Man,Isle Of Man,7
+Jersey,Jersey,Jersey,37
+Jersey,Spain,Jersey,1
+Jersey,United States,Jersey,1
+Labuan,Hong Kong,Labuan,2
+Labuan,Malaysia,Labuan,421
+Labuan,Not identified,Labuan,2
+Labuan,Singapore,Labuan,6
+Liberia,Liberia,Liberia,11
+Malaysia,Malaysia,Malaysia,71
+Malaysia,Singapore,Malaysia,5
+Malta,Bahamas,Malta,1
+Malta,Colombia,Malta,1
+Malta,Estonia,Malta,1
+Malta,Gibraltar,Malta,1
+Malta,Israel,Malta,4
+Malta,Jersey,Malta,3
+Malta,Luxembourg,Malta,6
+Malta,Panama,Malta,1
+Malta,Romania,Malta,1
+Malta,Switzerland,Malta,1
+Malta,United Kingdom,Malta,6
+Malta,United States,Malta,1
+Malta,Uruguay,Malta,1
+Marshall Islands,Marshall Islands,Marshall Islands,6
+Mauritius,Mauritius,Mauritius,75
+Mauritius,Not identified,Mauritius,3
+Mauritius,Singapore,Mauritius,2
+Netherlands,Hong Kong,Netherlands,1
+Netherlands,Netherlands,Netherlands,2
+Nevada,Andorra,Nevada,24
+Nevada,Argentina,Nevada,4
+Nevada,Bahamas,Nevada,291
+Nevada,Brazil,Nevada,132
+Nevada,Canada,Nevada,2
+Nevada,Chile,Nevada,6
+Nevada,China,Nevada,9
+Nevada,Colombia,Nevada,10
+Nevada,Costa Rica,Nevada,2
+Nevada,Cyprus,Nevada,1
+Nevada,Côte d'Ivoire,Nevada,1
+Nevada,Ecuador,Nevada,199
+Nevada,El Salvador,Nevada,7
+Nevada,France,Nevada,1
+Nevada,Gibraltar,Nevada,2
+Nevada,Haiti,Nevada,5
+Nevada,Hong Kong,Nevada,43
+Nevada,Hungary,Nevada,1
+Nevada,Isle of Man,Nevada,7
+Nevada,Italy,Nevada,7
+Nevada,Jersey,Nevada,3
+Nevada,Luxembourg,Nevada,29
+Nevada,Mexico,Nevada,1
+Nevada,Monaco,Nevada,6
+Nevada,New Zealand,Nevada,1
+Nevada,Panama,Nevada,82
+Nevada,Paraguay,Nevada,5
+Nevada,Portugal,Nevada,2
+Nevada,Saint Kitts and Nevis,Nevada,4
+Nevada,Spain,Nevada,8
+Nevada,Switzerland,Nevada,149
+Nevada,"Taiwan, Province of China",Nevada,4
+Nevada,Thailand,Nevada,17
+Nevada,United Arab Emirates,Nevada,1
+Nevada,United Kingdom,Nevada,15
+Nevada,United States,Nevada,96
+Nevada,Uruguay,Nevada,68
+Nevada,"Venezuela, Bolivarian Republic of",Nevada,13
+Nevada,"Virgin Islands, British",Nevada,2
+New Zealand,Argentina,New Zealand,1
+New Zealand,Brazil,New Zealand,1
+New Zealand,Colombia,New Zealand,3
+New Zealand,Ecuador,New Zealand,9
+New Zealand,Malta,New Zealand,9
+New Zealand,New Zealand,New Zealand,20
+New Zealand,Panama,New Zealand,2
+New Zealand,Peru,New Zealand,1
+New Zealand,United States,New Zealand,1
+Niue,Andorra,Niue,12
+Niue,Antigua and Barbuda,Niue,2
+Niue,Argentina,Niue,2
+Niue,Australia,Niue,4
+Niue,Bahamas,Niue,58
+Niue,Belgium,Niue,1
+Niue,Belize,Niue,228
+Niue,Brazil,Niue,91
+Niue,Bulgaria,Niue,1
+Niue,Canada,Niue,31
+Niue,Cayman Islands,Niue,1
+Niue,China,Niue,12
+Niue,Colombia,Niue,2
+Niue,Cook Islands,Niue,1
+Niue,Costa Rica,Niue,4
+Niue,Cyprus,Niue,313
+Niue,Côte d'Ivoire,Niue,1
+Niue,Ecuador,Niue,26
+Niue,El Salvador,Niue,1
+Niue,Estonia,Niue,68
+Niue,Finland,Niue,1
+Niue,France,Niue,18
+Niue,Germany,Niue,2
+Niue,Gibraltar,Niue,28
+Niue,Guatemala,Niue,140
+Niue,Guernsey,Niue,302
+Niue,Hong Kong,Niue,1055
+Niue,Hungary,Niue,25
+Niue,India,Niue,1
+Niue,Ireland,Niue,31
+Niue,Isle of Man,Niue,271
+Niue,Israel,Niue,11
+Niue,Italy,Niue,22
+Niue,Japan,Niue,2
+Niue,Jersey,Niue,344
+Niue,Latvia,Niue,13
+Niue,Lebanon,Niue,46
+Niue,Liechtenstein,Niue,49
+Niue,Lithuania,Niue,20
+Niue,Luxembourg,Niue,219
+Niue,Malaysia,Niue,4
+Niue,Malta,Niue,55
+Niue,Mauritius,Niue,32
+Niue,Monaco,Niue,49
+Niue,Netherlands,Niue,7
+Niue,New Zealand,Niue,13
+Niue,Niue,Niue,117
+Niue,Panama,Niue,1589
+Niue,Paraguay,Niue,1
+Niue,Peru,Niue,1
+Niue,Philippines,Niue,10
+Niue,Poland,Niue,40
+Niue,Portugal,Niue,56
+Niue,Russian Federation,Niue,366
+Niue,Saint Kitts and Nevis,Niue,2
+Niue,Samoa,Niue,78
+Niue,Saudi Arabia,Niue,3
+Niue,Singapore,Niue,98
+Niue,South Africa,Niue,7
+Niue,Spain,Niue,186
+Niue,Sweden,Niue,3
+Niue,Switzerland,Niue,2074
+Niue,"Taiwan, Province of China",Niue,232
+Niue,Thailand,Niue,7
+Niue,Turkey,Niue,6
+Niue,Ukraine,Niue,2
+Niue,United Arab Emirates,Niue,136
+Niue,United Kingdom,Niue,741
+Niue,United States,Niue,86
+Niue,Uruguay,Niue,108
+Niue,"Venezuela, Bolivarian Republic of",Niue,3
+Niue,"Virgin Islands, British",Niue,2
+Panama,Andorra,Panama,279
+Panama,Antigua and Barbuda,Panama,15
+Panama,Argentina,Panama,146
+Panama,Aruba,Panama,4
+Panama,Australia,Panama,20
+Panama,Austria,Panama,12
+Panama,Bahamas,Panama,2256
+Panama,Bahrain,Panama,3
+Panama,Barbados,Panama,18
+Panama,Belarus,Panama,1
+Panama,Belgium,Panama,25
+Panama,Belize,Panama,423
+Panama,Bermuda,Panama,21
+Panama,"Bolivia, Plurinational State of",Panama,91
+Panama,Botswana,Panama,1
+Panama,Brazil,Panama,521
+Panama,Bulgaria,Panama,5
+Panama,Canada,Panama,74
+Panama,Cayman Islands,Panama,33
+Panama,Chad,Panama,1
+Panama,Chile,Panama,83
+Panama,China,Panama,13
+Panama,Colombia,Panama,1357
+Panama,Costa Rica,Panama,686
+Panama,Croatia,Panama,1
+Panama,Cuba,Panama,3
+Panama,Curaçao,Panama,8
+Panama,Cyprus,Panama,305
+Panama,Czech Republic,Panama,6
+Panama,Côte d'Ivoire,Panama,7
+Panama,Denmark,Panama,4
+Panama,Djibouti,Panama,1
+Panama,Dominica,Panama,62
+Panama,Dominican Republic,Panama,312
+Panama,Ecuador,Panama,1101
+Panama,Egypt,Panama,20
+Panama,El Salvador,Panama,195
+Panama,Estonia,Panama,14
+Panama,Finland,Panama,3
+Panama,France,Panama,78
+Panama,Germany,Panama,129
+Panama,Gibraltar,Panama,195
+Panama,Greece,Panama,134
+Panama,Guatemala,Panama,801
+Panama,Guernsey,Panama,705
+Panama,Honduras,Panama,19
+Panama,Hong Kong,Panama,609
+Panama,Hungary,Panama,7
+Panama,Iceland,Panama,1
+Panama,India,Panama,2
+Panama,Indonesia,Panama,1
+Panama,"Iran, Islamic Republic of",Panama,4
+Panama,Ireland,Panama,56
+Panama,Isle of Man,Panama,499
+Panama,Israel,Panama,126
+Panama,Italy,Panama,40
+Panama,Japan,Panama,7
+Panama,Jersey,Panama,2127
+Panama,Jordan,Panama,394
+Panama,Kenya,Panama,6
+Panama,"Korea, Republic of",Panama,5
+Panama,Kuwait,Panama,36
+Panama,Latvia,Panama,12
+Panama,Lebanon,Panama,121
+Panama,Liberia,Panama,1
+Panama,Libya,Panama,1
+Panama,Liechtenstein,Panama,444
+Panama,Lithuania,Panama,6
+Panama,Luxembourg,Panama,5584
+Panama,Malaysia,Panama,2
+Panama,Malta,Panama,107
+Panama,Mauritius,Panama,108
+Panama,Mexico,Panama,39
+Panama,Monaco,Panama,1402
+Panama,Montenegro,Panama,1
+Panama,Morocco,Panama,2
+Panama,Nauru,Panama,1
+Panama,Netherlands,Panama,53
+Panama,New Zealand,Panama,10
+Panama,Nicaragua,Panama,10
+Panama,Nigeria,Panama,2
+Panama,Niue,Panama,236
+Panama,Norway,Panama,8
+Panama,Pakistan,Panama,1
+Panama,Panama,Panama,6091
+Panama,Paraguay,Panama,84
+Panama,Peru,Panama,35
+Panama,Philippines,Panama,9
+Panama,Poland,Panama,4
+Panama,Portugal,Panama,63
+Panama,Puerto Rico,Panama,1
+Panama,Qatar,Panama,12
+Panama,Romania,Panama,2
+Panama,Russian Federation,Panama,94
+Panama,Saint Kitts and Nevis,Panama,117
+Panama,Saint Lucia,Panama,1
+Panama,Saint Vincent and the Grenadines,Panama,3
+Panama,Samoa,Panama,160
+Panama,Saudi Arabia,Panama,24
+Panama,Senegal,Panama,1
+Panama,Seychelles,Panama,83
+Panama,Singapore,Panama,68
+Panama,Sint Maarten (Dutch part),Panama,1
+Panama,Slovakia,Panama,1
+Panama,Slovenia,Panama,1
+Panama,South Africa,Panama,33
+Panama,Spain,Panama,540
+Panama,Sudan,Panama,1
+Panama,Sweden,Panama,9
+Panama,Switzerland,Panama,11590
+Panama,Syrian Arab Republic,Panama,2
+Panama,"Taiwan, Province of China",Panama,281
+Panama,"Tanzania, United Republic of",Panama,1
+Panama,Thailand,Panama,16
+Panama,Trinidad and Tobago,Panama,1
+Panama,Tunisia,Panama,1
+Panama,Turkey,Panama,20
+Panama,Turks and Caicos Islands,Panama,2
+Panama,Ukraine,Panama,34
+Panama,United Arab Emirates,Panama,921
+Panama,United Kingdom,Panama,1666
+Panama,United States,Panama,794
+Panama,Uruguay,Panama,2653
+Panama,Vanuatu,Panama,1
+Panama,"Venezuela, Bolivarian Republic of",Panama,526
+Panama,Viet Nam,Panama,1
+Panama,"Virgin Islands, British",Panama,92
+Panama,"Virgin Islands, U.S.",Panama,1
+Panama,Yemen,Panama,1
+Panama,Zimbabwe,Panama,3
+Ras Al Khaimah,Isle of Man,Ras Al Khaimah,1
+Ras Al Khaimah,Switzerland,Ras Al Khaimah,1
+Samoa,Andorra,Samoa,9
+Samoa,Bahamas,Samoa,27
+Samoa,Belgium,Samoa,1
+Samoa,Belize,Samoa,45
+Samoa,Brazil,Samoa,43
+Samoa,Cayman Islands,Samoa,853
+Samoa,China,Samoa,363
+Samoa,Colombia,Samoa,6
+Samoa,Cook Islands,Samoa,1
+Samoa,Costa Rica,Samoa,2
+Samoa,Cyprus,Samoa,5
+Samoa,Czech Republic,Samoa,1
+Samoa,Côte d'Ivoire,Samoa,2
+Samoa,Dominican Republic,Samoa,1
+Samoa,Ecuador,Samoa,20
+Samoa,Estonia,Samoa,3
+Samoa,France,Samoa,3
+Samoa,Gibraltar,Samoa,14
+Samoa,Guatemala,Samoa,16
+Samoa,Guernsey,Samoa,19
+Samoa,Hong Kong,Samoa,3012
+Samoa,Hungary,Samoa,1
+Samoa,Indonesia,Samoa,2
+Samoa,Ireland,Samoa,11
+Samoa,Isle of Man,Samoa,70
+Samoa,Israel,Samoa,47
+Samoa,Italy,Samoa,3
+Samoa,Jersey,Samoa,17
+Samoa,Lebanon,Samoa,12
+Samoa,Liechtenstein,Samoa,32
+Samoa,Luxembourg,Samoa,13
+Samoa,Malaysia,Samoa,1
+Samoa,Mauritius,Samoa,9
+Samoa,Monaco,Samoa,20
+Samoa,Netherlands,Samoa,3
+Samoa,New Zealand,Samoa,3
+Samoa,Not identified,Samoa,6
+Samoa,Panama,Samoa,410
+Samoa,Poland,Samoa,1
+Samoa,Portugal,Samoa,10
+Samoa,Russian Federation,Samoa,5
+Samoa,Samoa,Samoa,8249
+Samoa,Seychelles,Samoa,14
+Samoa,Singapore,Samoa,122
+Samoa,Spain,Samoa,38
+Samoa,Switzerland,Samoa,545
+Samoa,"Taiwan, Province of China",Samoa,265
+Samoa,Thailand,Samoa,13
+Samoa,Turkey,Samoa,1
+Samoa,United Arab Emirates,Samoa,56
+Samoa,United Kingdom,Samoa,45
+Samoa,United States,Samoa,11
+Samoa,Uruguay,Samoa,9
+Samoa,"Venezuela, Bolivarian Republic of",Samoa,2
+Seychelles,Andorra,Seychelles,72
+Seychelles,Antigua and Barbuda,Seychelles,3
+Seychelles,Argentina,Seychelles,6
+Seychelles,Australia,Seychelles,4
+Seychelles,Bahamas,Seychelles,105
+Seychelles,Belgium,Seychelles,5
+Seychelles,Belize,Seychelles,175
+Seychelles,Botswana,Seychelles,3
+Seychelles,Brazil,Seychelles,79
+Seychelles,Bulgaria,Seychelles,22
+Seychelles,Cameroon,Seychelles,1
+Seychelles,Canada,Seychelles,17
+Seychelles,Chile,Seychelles,2
+Seychelles,China,Seychelles,528
+Seychelles,Colombia,Seychelles,18
+Seychelles,Costa Rica,Seychelles,2
+Seychelles,Curaçao,Seychelles,12
+Seychelles,Cyprus,Seychelles,448
+Seychelles,Czech Republic,Seychelles,1
+Seychelles,Denmark,Seychelles,2
+Seychelles,Dominican Republic,Seychelles,11
+Seychelles,Ecuador,Seychelles,26
+Seychelles,Egypt,Seychelles,1
+Seychelles,El Salvador,Seychelles,5
+Seychelles,Estonia,Seychelles,34
+Seychelles,Finland,Seychelles,4
+Seychelles,France,Seychelles,14
+Seychelles,Germany,Seychelles,8
+Seychelles,Gibraltar,Seychelles,64
+Seychelles,Greece,Seychelles,21
+Seychelles,Guatemala,Seychelles,30
+Seychelles,Guernsey,Seychelles,52
+Seychelles,Hong Kong,Seychelles,3749
+Seychelles,Hungary,Seychelles,27
+Seychelles,India,Seychelles,6
+Seychelles,Indonesia,Seychelles,2
+Seychelles,Ireland,Seychelles,13
+Seychelles,Isle of Man,Seychelles,80
+Seychelles,Israel,Seychelles,122
+Seychelles,Italy,Seychelles,22
+Seychelles,Japan,Seychelles,1
+Seychelles,Jersey,Seychelles,18
+Seychelles,Jordan,Seychelles,1
+Seychelles,Kenya,Seychelles,1
+Seychelles,Kuwait,Seychelles,13
+Seychelles,Latvia,Seychelles,1
+Seychelles,Lebanon,Seychelles,88
+Seychelles,Lesotho,Seychelles,1
+Seychelles,Liechtenstein,Seychelles,169
+Seychelles,Luxembourg,Seychelles,1420
+Seychelles,Macao,Seychelles,1
+Seychelles,"Macedonia, the Former Yugoslav Republic of",Seychelles,1
+Seychelles,Malaysia,Seychelles,1
+Seychelles,Malta,Seychelles,31
+Seychelles,Mauritius,Seychelles,15
+Seychelles,Mexico,Seychelles,6
+Seychelles,Monaco,Seychelles,566
+Seychelles,Morocco,Seychelles,18
+Seychelles,Mozambique,Seychelles,2
+Seychelles,Namibia,Seychelles,2
+Seychelles,Netherlands,Seychelles,6
+Seychelles,Nigeria,Seychelles,2
+Seychelles,Niue,Seychelles,5
+Seychelles,Panama,Seychelles,1273
+Seychelles,Peru,Seychelles,1
+Seychelles,Philippines,Seychelles,4
+Seychelles,Poland,Seychelles,26
+Seychelles,Qatar,Seychelles,1
+Seychelles,Russian Federation,Seychelles,21
+Seychelles,Saint Kitts and Nevis,Seychelles,17
+Seychelles,Samoa,Seychelles,850
+Seychelles,Saudi Arabia,Seychelles,1
+Seychelles,Senegal,Seychelles,2
+Seychelles,Seychelles,Seychelles,753
+Seychelles,Singapore,Seychelles,126
+Seychelles,Spain,Seychelles,38
+Seychelles,Sweden,Seychelles,2
+Seychelles,Switzerland,Seychelles,1630
+Seychelles,"Taiwan, Province of China",Seychelles,56
+Seychelles,Thailand,Seychelles,254
+Seychelles,Turkey,Seychelles,2
+Seychelles,Turks and Caicos Islands,Seychelles,1
+Seychelles,Ukraine,Seychelles,5
+Seychelles,United Arab Emirates,Seychelles,1750
+Seychelles,United Kingdom,Seychelles,313
+Seychelles,United States,Seychelles,68
+Seychelles,Uruguay,Seychelles,176
+Seychelles,"Venezuela, Bolivarian Republic of",Seychelles,24
+Seychelles,"Virgin Islands, British",Seychelles,11
+Singapore,Cayman Islands,Singapore,1
+Singapore,Hong Kong,Singapore,3
+Singapore,India,Singapore,1
+Singapore,Indonesia,Singapore,3
+Singapore,Japan,Singapore,1
+Singapore,Malaysia,Singapore,1
+Singapore,Netherlands,Singapore,1
+Singapore,Singapore,Singapore,667
+Singapore,Switzerland,Singapore,1
+Singapore,"Taiwan, Province of China",Singapore,1
+Singapore,United Kingdom,Singapore,1
+St. Lucia,Saint Lucia,St. Lucia,4
+St. Lucia,Singapore,St. Lucia,1
+Thailand,Hong Kong,Thailand,1
+Thailand,Thailand,Thailand,2
+Undetermined,Andorra,Undetermined,1
+Undetermined,Antigua and Barbuda,Undetermined,259
+Undetermined,Australia,Undetermined,23
+Undetermined,Austria,Undetermined,52
+Undetermined,Bahamas,Undetermined,6
+Undetermined,Barbados,Undetermined,1
+Undetermined,Belarus,Undetermined,19
+Undetermined,Belgium,Undetermined,2
+Undetermined,Belize,Undetermined,104
+Undetermined,Bermuda,Undetermined,1
+Undetermined,Canada,Undetermined,562
+Undetermined,Cayman Islands,Undetermined,18
+Undetermined,China,Undetermined,944
+Undetermined,Cook Islands,Undetermined,4
+Undetermined,Costa Rica,Undetermined,8
+Undetermined,Croatia,Undetermined,17
+Undetermined,Curaçao,Undetermined,34
+Undetermined,Cyprus,Undetermined,2621
+Undetermined,Czech Republic,Undetermined,139
+Undetermined,Estonia,Undetermined,1
+Undetermined,Fiji,Undetermined,2
+Undetermined,Finland,Undetermined,1
+Undetermined,France,Undetermined,19
+Undetermined,Georgia,Undetermined,1
+Undetermined,Germany,Undetermined,23
+Undetermined,Gibraltar,Undetermined,74
+Undetermined,Greece,Undetermined,1
+Undetermined,Grenada,Undetermined,3
+Undetermined,Guernsey,Undetermined,4
+Undetermined,Hong Kong,Undetermined,12157
+Undetermined,Indonesia,Undetermined,9
+Undetermined,Ireland,Undetermined,1613
+Undetermined,Isle of Man,Undetermined,1
+Undetermined,Israel,Undetermined,21
+Undetermined,Italy,Undetermined,1
+Undetermined,Japan,Undetermined,3
+Undetermined,Jersey,Undetermined,228
+Undetermined,Kazakhstan,Undetermined,4
+Undetermined,"Korea, Democratic People's Republic of",Undetermined,5
+Undetermined,Kuwait,Undetermined,3
+Undetermined,Latvia,Undetermined,1561
+Undetermined,Liechtenstein,Undetermined,4
+Undetermined,Luxembourg,Undetermined,37
+Undetermined,Malaysia,Undetermined,9
+Undetermined,Malta,Undetermined,38
+Undetermined,Mauritius,Undetermined,51
+Undetermined,Mexico,Undetermined,3
+Undetermined,Netherlands,Undetermined,71
+Undetermined,New Zealand,Undetermined,12
+Undetermined,Norway,Undetermined,3
+Undetermined,Not identified,Undetermined,25359
+Undetermined,Panama,Undetermined,2295
+Undetermined,Philippines,Undetermined,5
+Undetermined,Poland,Undetermined,3
+Undetermined,Portugal,Undetermined,3
+Undetermined,Puerto Rico,Undetermined,2
+Undetermined,Romania,Undetermined,1
+Undetermined,Russian Federation,Undetermined,7317
+Undetermined,Saint Kitts and Nevis,Undetermined,203
+Undetermined,Samoa,Undetermined,3
+Undetermined,Serbia,Undetermined,9
+Undetermined,Seychelles,Undetermined,365
+Undetermined,Singapore,Undetermined,577
+Undetermined,South Africa,Undetermined,11
+Undetermined,Spain,Undetermined,4
+Undetermined,Sweden,Undetermined,29
+Undetermined,Switzerland,Undetermined,164
+Undetermined,Syrian Arab Republic,Undetermined,1
+Undetermined,"Taiwan, Province of China",Undetermined,4
+Undetermined,Thailand,Undetermined,37
+Undetermined,Turks and Caicos Islands,Undetermined,29
+Undetermined,Ukraine,Undetermined,195
+Undetermined,United Arab Emirates,Undetermined,501
+Undetermined,United Kingdom,Undetermined,8248
+Undetermined,United States,Undetermined,3163
+Undetermined,Vanuatu,Undetermined,25
+Undetermined,"Venezuela, Bolivarian Republic of",Undetermined,1
+Undetermined,Viet Nam,Undetermined,1
+Undetermined,"Virgin Islands, British",Undetermined,29837
+Undetermined,"Virgin Islands, U.S.",Undetermined,8
+United Kingdom,American Samoa,United Kingdom,1
+United Kingdom,Andorra,United Kingdom,1
+United Kingdom,Bahamas,United Kingdom,4
+United Kingdom,Brazil,United Kingdom,6
+United Kingdom,Colombia,United Kingdom,51
+United Kingdom,Costa Rica,United Kingdom,1
+United Kingdom,Ecuador,United Kingdom,7
+United Kingdom,Isle of Man,United Kingdom,2
+United Kingdom,Jersey,United Kingdom,6
+United Kingdom,Luxembourg,United Kingdom,1
+United Kingdom,Mexico,United Kingdom,1
+United Kingdom,Panama,United Kingdom,5
+United Kingdom,Singapore,United Kingdom,1
+United Kingdom,Switzerland,United Kingdom,2
+United Kingdom,United Kingdom,United Kingdom,55
+United Kingdom,United States,United Kingdom,5
+United Kingdom,Uruguay,United Kingdom,3
+United States Of America,United States,United States Of America,2
+Uruguay,Andorra,Uruguay,15
+Uruguay,Bahamas,Uruguay,2
+Uruguay,Brazil,Uruguay,1
+Uruguay,Colombia,Uruguay,1
+Uruguay,Ecuador,Uruguay,2
+Uruguay,Guernsey,Uruguay,1
+Uruguay,Isle of Man,Uruguay,1
+Uruguay,Luxembourg,Uruguay,1
+Uruguay,Panama,Uruguay,7
+Uruguay,Russian Federation,Uruguay,2
+Uruguay,Spain,Uruguay,3
+Uruguay,Switzerland,Uruguay,2
+Uruguay,Uruguay,Uruguay,12
+Uruguay,"Venezuela, Bolivarian Republic of",Uruguay,2
+Vanuatu,Singapore,Vanuatu,1
+Vanuatu,Vanuatu,Vanuatu,5
+Wyoming,Bahamas,Wyoming,15
+Wyoming,Belize,Wyoming,1
+Wyoming,Brazil,Wyoming,4
+Wyoming,Chile,Wyoming,1
+Wyoming,Jersey,Wyoming,1
+Wyoming,Luxembourg,Wyoming,1
+Wyoming,Panama,Wyoming,5
+Wyoming,Poland,Wyoming,1
+Wyoming,United Kingdom,Wyoming,1
+Wyoming,Uruguay,Wyoming,7
