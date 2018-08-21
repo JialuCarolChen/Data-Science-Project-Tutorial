@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graph>
+	<nodes>
+		<node id="0" name="tree" group=""></node>
+		<node id="1" name="2-strongly regular planar"></node>
+		<node id="2" name="locally connected triangular"></node>
+		<node id="3" name="bipartite claw--free"></node>
+		<node id="4" name="linearly convex triangular grid graph"></node>
+		<node id="5" name="cubic planar"></node>
+		<node id="6" name="cactus"></node>
+		<node id="7" name="unicyclic"></node>
+		<node id="8" name="planar"></node>
+		<node id="9" name="chordal hamiltonian planar"></node>
+		<node id="10" name="Delaunay"></node>
+		<node id="11" name="bipartite maximum degree 3"></node>
+		<node id="12" name="Apollonian network"></node>
+		<node id="13" name="2-tree probe interval"></node>
+		<node id="14" name="2-subdivision planar"></node>
+		<node id="15" name="probe interval tree"></node>
+		<node id="16" name="H_{n,q} grid"></node>
+		<node id="17" name="Urquhart"></node>
+		<node id="18" name="planar strongly regular"></node>
+		<node id="19" name="Laman planar"></node>
+		<node id="20" name="planar of maximum degree 3"></node>
+		<node id="21" name="lanar triangle--free"></node>
+		<node id="22" name="2--outerplanar"></node>
+		<node id="23" name="binary tree partial grid"></node>
+		<node id="24" name="series--parallel"></node>
+		<node id="25" name="partial 3--tree planar"></node>
+		<node id="26" name="caterpillar"></node>
+		<node id="27" name="relative neighbourhood graph"></node>
+		<node id="28" name="chordal planar"></node>
+		<node id="29" name="bipartite planar"></node>
+		<node id="30" name="solid grid graph"></node>
+		<node id="31" name="odd-hole--free planar"></node>
+		<node id="32" name="grid graph"></node>
+		<node id="33" name="Gabriel"></node>
+		<node id="34" name="K_2--free"></node>
+		<node id="35" name="homothetic triangle contact"></node>
+		<node id="36" name="bar visibility"></node>
+		<node id="37" name="outerplanar"></node>
+		<node id="38" name="binary tree"></node>
+		<node id="39" name="grid graph maximum degree 3"></node>
+		<node id="40" name="polyhedral"></node>
+		<node id="41" name="median planar"></node>
+		<node id="42" name="planar of maximum degree 4"></node>
+		<node id="43" name="2-tree"></node>
+		<node id="44" name="domination perfect planar"></node>
+		<node id="45" name="solid triangular grid graph"></node>
+		<node id="46" name="strict B_1-VPG contact"></node>
+		<node id="47" name="5-regular planar"></node>
+		<node id="48" name="(C_4,triangle)--free planar"></node>
+		<node id="49" name="(C_4,C_6,C_8,K_{1,4},odd-cycle)--free"></node>
+		<node id="50" name="E--free planar"></node>
+		<node id="51" name="4-regular planar"></node>
+		<node id="52" name="2-connected linearly convex"></node>
+		<node id="53" name="k--outerplanar"></node>
+		<node id="54" name="2-connected cubic planar"></node>
+		<node id="55" name="partial grid"></node>
+		<node id="56" name="SC 2-tree"></node>
+		<node id="57" name="bipartite maximum degree 4"></node>
+		<node id="58" name="triangular grid graph"></node>
+		<node id="59" name="tolerance tree"></node>
+		<node id="60" name="unit bar visibility"></node>
+		<node id="61" name="grid"></node>
+		<node id="62" name="(C_4,C_5,K_4,diamond)--free"><desc>(C_4,C_5,K_4,diamond)--free $\cap$...</desc></node>
+		<node id="63" name="maximal planar"></node>
+		<node id="64" name="Halin"></node>
+		<node id="65" name="2-terminal series--parallel"></node>
+	</nodes>
+	<edges>
+		<edge source="38" target="23"></edge>
+		<edge source="2" target="52"></edge>
+		<edge source="49" target="38"></edge>
+		<edge source="57" target="55"></edge>
+		<edge source="57" target="11"></edge>
+		<edge source="4" target="52"></edge>
+		<edge source="5" target="54"></edge>
+		<edge source="37" target="6"></edge>
+		<edge source="37" target="56"></edge>
+		<edge source="8" target="58"></edge>
+		<edge source="8" target="10"></edge>
+		<edge source="8" target="53"></edge>
+		<edge source="8" target="46"></edge>
+		<edge source="8" target="33"></edge>
+		<edge source="8" target="17"></edge>
+		<edge source="8" target="27"></edge>
+		<edge source="8" target="47"></edge>
+		<edge source="8" target="18"></edge>
+		<edge source="8" target="1"></edge>
+		<edge source="8" target="35"></edge>
+		<edge source="0" target="59"></edge>
+		<edge source="0" target="38"></edge>
+		<edge source="20" target="11"></edge>
+		<edge source="20" target="5"></edge>
+		<edge source="21" target="29"></edge>
+		<edge source="24" target="65"></edge>
+		<edge source="24" target="37"></edge>
+		<edge source="24" target="43"></edge>
+		<edge source="31" target="28"></edge>
+		<edge source="31" target="29"></edge>
+		<edge source="22" target="64"></edge>
+		<edge source="25" target="64"></edge>
+		<edge source="25" target="24"></edge>
+		<edge source="25" target="28"></edge>
+		<edge source="28" target="9"></edge>
+		<edge source="28" target="43"></edge>
+		<edge source="28" target="12"></edge>
+		<edge source="29" target="57"></edge>
+		<edge source="30" target="61"></edge>
+		<edge source="32" target="30"></edge>
+		<edge source="32" target="39"></edge>
+		<edge source="11" target="49"></edge>
+		<edge source="11" target="3"></edge>
+		<edge source="26" target="34"></edge>
+		<edge source="59" target="15"></edge>
+		<edge source="35" target="25"></edge>
+		<edge source="36" target="43"></edge>
+		<edge source="36" target="60"></edge>
+		<edge source="15" target="26"></edge>
+		<edge source="40" target="64"></edge>
+		<edge source="6" target="0"></edge>
+		<edge source="6" target="3"></edge>
+		<edge source="6" target="7"></edge>
+		<edge source="41" target="0"></edge>
+		<edge source="42" target="57"></edge>
+		<edge source="42" target="51"></edge>
+		<edge source="42" target="20"></edge>
+		<edge source="43" target="56"></edge>
+		<edge source="43" target="13"></edge>
+		<edge source="44" target="3"></edge>
+		<edge source="44" target="16"></edge>
+		<edge source="44" target="14"></edge>
+		<edge source="45" target="4"></edge>
+		<edge source="46" target="19"></edge>
+		<edge source="48" target="0"></edge>
+		<edge source="48" target="16"></edge>
+		<edge source="48" target="14"></edge>
+		<edge source="48" target="49"></edge>
+		<edge source="53" target="22"></edge>
+		<edge source="55" target="3"></edge>
+		<edge source="55" target="32"></edge>
+		<edge source="58" target="45"></edge>
+		<edge source="62" target="0"></edge>
+		<edge source="62" target="16"></edge>
+		<edge source="62" target="14"></edge>
+		<edge source="62" target="49"></edge>
+		<edge source="3" target="34"></edge>
+		<edge source="8" target="36"></edge>
+		<edge source="8" target="63"></edge>
+		<edge source="8" target="40"></edge>
+		<edge source="8" target="31"></edge>
+		<edge source="8" target="44"></edge>
+		<edge source="8" target="21"></edge>
+		<edge source="8" target="42"></edge>
+		<edge source="8" target="62"></edge>
+		<edge source="8" target="50"></edge>
+		<edge source="19" target="43"></edge>
+		<edge source="20" target="16"></edge>
+		<edge source="21" target="48"></edge>
+		<edge source="22" target="37"></edge>
+		<edge source="23" target="34"></edge>
+		<edge source="28" target="0"></edge>
+		<edge source="29" target="41"></edge>
+		<edge source="11" target="39"></edge>
+		<edge source="36" target="0"></edge>
+		<edge source="40" target="12"></edge>
+		<edge source="41" target="61"></edge>
+		<edge source="50" target="3"></edge>
+		<edge source="55" target="23"></edge>
+		<edge source="58" target="2"></edge>
+		<edge source="63" target="12"></edge>
+	</edges>
+</graph>

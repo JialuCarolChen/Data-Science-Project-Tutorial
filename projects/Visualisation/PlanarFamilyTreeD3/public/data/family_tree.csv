@@ -1,0 +1,48 @@
+name,parent
+planar,
+triangular grid graph,planar
+Delaunay,planar
+k--outerplanar,planar
+strict B_1-VPG contact,planar
+Gabriel,planar
+Urquhart,planar
+relative neighbourhood graph,planar
+5-regular planar,planar
+planar strongly regular,planar
+2-strongly regular planar,planar
+homothetic triangle contact,planar
+bar visibility,planar
+maximal planar,planar
+polyhedral,planar
+odd-hole--free planar,planar
+domination perfect planar,planar
+lanar triangle--free,planar
+planar of maximum degree 4,planar
+"(C_4,C_5,K_4,diamond)--free",planar
+E--free planar,planar
+solid triangular grid graph,triangular grid graph
+locally connected triangular,triangular grid graph
+2--outerplanar,k--outerplanar
+Laman planar,strict B_1-VPG contact
+partial 3--tree planar,homothetic triangle contact
+2-tree,bar visibility
+unit bar visibility,bar visibility
+tree,bar visibility
+Apollonian network,maximal planar
+Halin,polyhedral
+Apollonian network,polyhedral
+chordal planar,odd-hole--free planar
+bipartite planar,odd-hole--free planar
+bipartite claw--free,domination perfect planar
+"H_{n,q} grid",domination perfect planar
+2-subdivision planar,domination perfect planar
+bipartite planar,lanar triangle--free
+"(C_4,triangle)--free planar",lanar triangle--free
+bipartite maximum degree 4,planar of maximum degree 4
+4-regular planar,planar of maximum degree 4
+planar of maximum degree 3,planar of maximum degree 4
+tree,"(C_4,C_5,K_4,diamond)--free"
+"H_{n,q} grid","(C_4,C_5,K_4,diamond)--free"
+2-subdivision planar,"(C_4,C_5,K_4,diamond)--free"
+"(C_4,C_6,C_8,K_{1,4},odd-cycle)--free","(C_4,C_5,K_4,diamond)--free"
+bipartite claw--free,E--free planar
